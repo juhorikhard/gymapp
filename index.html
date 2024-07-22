@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym App - Generate the best workouts</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="showcase">
+        <div class="showcase-top">
+            <img src="img/logo.png" alt="Gym App">
+            <a href="#" class="btn btn-rounded" id="about-button">☰ About</a>
+        </div>
+        <div class="showcase-content">
+            <h1>Unsure what to train? We've got your back!</h1>
+            <div class="btn-container">
+                <button class="btn btn-xl" id="chestButton">Chest</button>
+                <button class="btn btn-xl" id="backButton">Back</button>
+                <button class="btn btn-xl" id="legsButton">Legs</button>
+            </div>
+            <div id="exercise-list" class="exercise-list hidden"></div>
+        </div>
+    </header>
+    <div id="gymSidebar" class="info-sidebar">
+        <a class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="info-sidebar-content">
+            <h2>About this app</h2>
+            <br>
+            <p>Welcome to the gym app! This application is intended to help you create individualized workout routines.</p>
+            <br>
+            <h3>Features:</h3>
+            <br>
+            <ul>
+                <li> <strong>Workout generation: </strong> To build a personalized exercise plan, select one of the workout sections (chest, back or legs).</li>
+                <li> <strong>User-Friendly Interface: </strong> The app has a clean and clear interface tthat makes it simple to explore and discover the workout you need.</li>
+                <li> <strong>Dynamic content: </strong> The app automatically refreshes the content area in response to your selection.</li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
